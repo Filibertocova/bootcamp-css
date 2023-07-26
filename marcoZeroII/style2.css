@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmefDA_hvz4n1uRRLjDIdeRDNQtuzbxUjc_g&usqp=CAU);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    font-size: 28px;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    text-align: justify;
+}
+
+main h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+footer {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqdL8jGWwC0XINg2Kedp5yeinxpFccpzEgsA&usqp=CAU);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #fbf6f6;
+    font-size: 14px;
+    background-color: #333;
+    width: 170px;
+}
