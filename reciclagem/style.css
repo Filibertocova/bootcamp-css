@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.box {
+    background-color: #F0F0F0;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #c82cf4;
+}
+
+h2 {
+    color: #0000FF;
+}
+
+p {
+    color: #666666;
+}
+
+.boxverde {
+    color: #69fd07;
+}
+
+.boxamarelo {
+    color: #ffd500;
+    text-shadow: #2e2929;
+    box-shadow: #151414;
+}
+
+.boxazul {
+    color: #215db7;
+}
