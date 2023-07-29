@@ -1,81 +1,125 @@
-!!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VitrineDron</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
+    <header>
+        <nav>
+            <!-- <a href="home.html">Home</a> -->
+            <a href="quemsomos.html">Quem Somos</a>
+            <a href="nossotime.html">Nosso Time</a>
+            <a href="produtos.html">Produtos</a>
+        </nav>
 
-    p>Frase 1</p>
-    </div>
-    <div>
-        <img src="imagem2.jpg" alt="Imagem 2">
-        <p>Frase 2</p>
-    </div>
-    <div>
-        <img src="imagem3.jpg" alt="Imagem 3">
-        <p>Frase 3</p>
-    </div>
-    <div>
-        <img src="imagem4.jpg" alt="Imagem 4">
-        <p>Frase 4</p>
-    </div>
-    </section>
+    </header>
+    <main>
 
-    <section id="quem-somos">
-        <h2>Quem Somos</h2>
-        <img src="imagem-quem-somos.jpg" alt="Imagem Quem Somos">
-        <p>Texto sobre a empresa...</p>
-    </section>
+        <p>Los melhores Drones criam as melhores lembranças! </p>
+        <div class="container">
+            <section>
+                <div id="myCarousel" class="carousel slide">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li class="item1 active"></li>
+                        <li class="item2"></li>
+                        <li class="item3"></li>
+                        <li class="item4"></li>
+                    </ol>
 
-    <section id="nosso-time">
-        <h2>Nosso Time</h2>
-        <div class="team-member">
-            <img src="foto1.jpg" alt="Foto membro 1">
-            <p>Membro 1</p>
-        </div>
-        <div class="team-member">
-            <img src="foto2.jpg" alt="Foto membro 2">
-            <p>Membro 2</p>
-        </div>
-        <div class="team-member">
-            <img src="foto3.jpg" alt="Foto membro 3">
-            <p>Membro 3</p>
-        </div>
-    </section>
+                    <!-- Wrapper for slides -->
+                    <div id="container-carrousel" class="carousel-inner" role="listbox">
 
-    <section id="nossos-produtos">
-        <h2>Nossos Produtos</h2>
-        <div class="product-card">
-            <img src="produto1.jpg" alt="Produto 1">
-            <p>Descrição do Produto 1</p>
-            <p>R$ 99,99</p>
-        </div>
-        <div class="product-card">
-            <img src="produto2.jpg" alt="Produto 2">
-            <p>Descrição do Produto 2</p>
-            <p>R$ 199,99</p>
-        </div>
-        <!-- Mais produtos... -->
-    </section>
+                        <div id="carousell" class="item active">
+                            <img id="carousell" class="img-carrusel" src="https://cdn.shopify.com/s/files/1/0549/7546/3514/files/oregon1.png?v=1668438198" alt="Drones com câmera">
+                            <div class="carousel-caption">
+                                <h3>Drone</h3>
+                                <p>Gravações e Fotos na Mais Alta Resolução</p>
+                            </div>
+                        </div>
 
+                        <div id="carousell" class="item ">
+                            <img id="carousell" class="img-carrusel" src="https://m.media-amazon.com/images/I/71uVLNCi2CL._AC_SX425_.jpg" alt="Drones com câmera">
+                            <div class="carousel-caption">
+                                <h3>Drone</h3>
+                                <p>Drones com câmera para adultos 4k</p>
+                            </div>
+                        </div>
+
+                        <div id="carousell" class="item">
+                            <img id="carousell" class="img-carrusel" class="img-carrusel" src="https://http2.mlstatic.com/D_NQ_NP_2X_951573-CBT54790004640_042023-F.webp" alt="Drone Quadricóptero Acrobático">
+                            <div class="carousel-caption">
+                                <h3>Drone</h3>
+                                <p>Drone Quadricóptero Acrobático Stunt Controle Gestos</p>
+                            </div>
+                        </div>
+
+                        <div id="carousell" class="item">
+                            <img id="carousell" src="https://i.ebayimg.com/images/g/SjkAAOSwZMFkir-n/s-l1600.jpg" alt="Drones">
+                            <div class="carousel-caption">
+                                <h3>Airdrop</h3>
+                                <p>Airdrop Sistema de Entrega para DJI Mavic 3, Lançador Dropper, Isca De Pesca</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+        </div><br><br>
+
+
+        </section>
+
+    </main>
     <footer>
-        <p>Endereço: Av. Exemplo, 123 - CEP: 12345-678<br> Telefone: (11) 1234-5678<br> Redes Sociais: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
+        <p>Endereço: Rua. Francisco Inacio de Souza, 1330 - CEP: 69313490<br> Telefone: (95) 984044223<br> Redes Sociais: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
     </footer>
+    <script>
+        $(document).ready(function() {
+            // Activate Carousel
+            $("#myCarousel").carousel();
+
+            // Enable Carousel Indicators
+            $(".item1").click(function() {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function() {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function() {
+                $("#myCarousel").carousel(2);
+            });
+            $(".item4").click(function() {
+                $("#myCarousel").carousel(3);
+            });
+
+            // Enable Carousel Controls
+            $(".left").click(function() {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".right").click(function() {
+                $("#myCarousel").carousel("next");
+            });
+        })
+    </script>
 </body>
 
-</html>iv>
-<!-- Mais produtos... -->
-</section>
-
-<footer>
-    <p>Endereço: Av. Exemplo, 123 - CEP: 12345-678<br> Telefone: (11) 1234-5678<br> Redes Sociais: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Twitter</a></p>
-</footer>
-</body>
 
 </html>
-</a>
-</p>
